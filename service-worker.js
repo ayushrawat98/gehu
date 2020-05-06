@@ -4,7 +4,6 @@ var urlsToCache = [
   'index.html',
   'abtpage.html',
   'creatine.html',
-  'diet.html',
   'dietpage.html',
   'gainer.html',
   'glutamine.html',
