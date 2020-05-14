@@ -1,8 +1,13 @@
 {
-	"name" : "The Own Gym",
-	"short_name" : "OG",
-	"description" : "Home gym web app.",
-	"icons": [
+  "name": "The Own Gym",
+  "short_name": "OG",
+  "description": "Home gym web app.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "lang": "English",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "icons": [
     {
       "src": "./images/icons-192.png",
       "type": "image/png",
@@ -13,9 +18,5 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  	],
-	"start_url" : "./index.html",
-	"display" : "standalone",
-	"lang" : "English",
-	"background_color" : "#562020"
+  ]
 }
