@@ -33,7 +33,8 @@ h2{
 .inside button{
     border:none;
     background-color: aliceblue;
-    padding: 20px;
+    width:30%;
+    padding:5% ;
     margin:5% 32%;
 
 }
