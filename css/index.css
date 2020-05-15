@@ -1,45 +1,52 @@
+body{
+  margin:0;
+
+}
+
 .backimage {
-    position: relative;
-    width: 99vw;
-    height: 160vh;
-  }
+  position: relative;
+  width: 100%;
+  height: 160vh;
+}
 
-  .imgtxt {
-    position: absolute;
-    top: 30vh;
-    left: 65vw;
-    text-align: center;
-    color: white;
-    font-family: 'Special Elite', cursive;
-    font-size: 4.5vw;
-  }
+.imgtxt {
+  position: absolute;
+  top: 14vh;
+  left: 65vw;
+  text-align: center;
+  color: white;
+  font-family: 'Special Elite', cursive;
+  font-size: 4.5vw;
+}
 
-  .letsroll {
-    position: absolute;
-    top: 130vh;
-    left: 10vw;
-    border: 4px solid;
-    border-radius: 10px;
-    padding: 20px;
-    font-family: 'Special Elite', cursive;
-    font-size: 5vw;
-  }
-  
-  .letsroll a {
-    color: white;
-  }
+.letsroll {
+  position: absolute;
+  top: 130vh;
+  left: 10vw;
+  border: 4px solid;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: 'Special Elite', cursive;
+  font-size: 5vw;
+}
 
-  .aboutpage {
-    position: absolute;
-    top: 130vh;
-    left: 60vw;
-    border: 4px solid;
-    border-radius: 10px;
-    padding: 20px;
-    font-family: 'Special Elite', cursive;
-    font-size: 5vw;
-  }
+.letsroll a {
+  color: white;
+  text-decoration: none;
+}
 
-  .aboutpage a {
-    color: white;
-  }
+.aboutpage {
+  position: absolute;
+  top: 130vh;
+  left: 60vw;
+  border: 4px solid;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: 'Special Elite', cursive;
+  font-size: 5vw;
+}
+
+.aboutpage a {
+  color: white;
+  text-decoration: none;
+}

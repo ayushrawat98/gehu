@@ -2,7 +2,7 @@
   "name": "The Own Gym",
   "short_name": "OG",
   "description": "Home gym web app.",
-  "start_url": "./index.html",
+  "start_url": "./secpage.html",
   "display": "standalone",
   "lang": "English",
   "background_color": "#fff",

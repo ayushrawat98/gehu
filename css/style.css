@@ -1,46 +1,47 @@
+    body{
+    margin:0;
+    line-height: 1.5;
+    background-image: linear-gradient( 45deg, #cfd9df, #e2ebf0);
+}
+
 h2{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: sans-serif;
 }
 
-form{
-    width: 400px;
-    height: 300px;
-    font-size: 12px;
-    padding: 10px;
-    border: 1px solid;
-    box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+.container{
+    width:80%;
     margin:auto;
-    position: relative;
-    line-height: 24px;
-    border-radius: 8px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
-input {
-    width: 375px;
-    display: block;
-    border: 1px solid #999;
-    height: 35px;
-    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-  }
+.inside{
+    width:80%;
+    margin:auto;
+}
 
-  button {
-    position: relative;
-    background: #09C;
-    color: #fff;
-    font-family: Tahoma, Geneva, sans-serif;
-    height: 30px;
-    width: 60px;
-    left: 130px;
-    border-radius: 8px;
-    border: 1p solid;
-  }
+.inside input{
+    width:100%;
+    height:50px;
+    margin:2% 0%;
+    /*! margin: ; */
+}
 
-  #bmi{
-      left:160px;
-  }
-  #bmiform{
-      height:200px;
-  }
+.inside button{
+    border:none;
+    background-color: aliceblue;
+    padding: 20px;
+    margin:5% 32%;
+
+}
+
+p{
+    text-align: center;
+    text-decoration: dashed;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

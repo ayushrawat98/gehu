@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>
-            Calorie
-        </title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="./js/caloriescript.js"></script>
-        <link rel='stylesheet' href='./css/style.css'>
-    </head>
 
-    <body>
-       
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Calorie
+    </title>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="./js/caloriescript.js"></script>
+    <link rel='stylesheet' href='./css/style.css'>
+</head>
+
+<body>
+    <h2>Calorie</h2>
+    <div class="container">
+        <div class="inside">
             <form>
-                Food Name : <input type='text' id="fname"/>
+                Food Name : <input type='text' id="fname" />
                 <button type='button' onclick='getNameFood()'>Submit</button>
             </form>
-
-
-        <div>
-            <p class='result'></p>
         </div>
-    </body>
+    </div>
+
+    <div>
+        <p class='result'></p>
+    </div>
+</body>
 
 
 </html>

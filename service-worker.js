@@ -1,6 +1,5 @@
 var CACHE_NAME = 'static-cache';
 var urlsToCache = [
-  '.',
   'index.html',
   'abtpage.html',
   'creatine.html',
