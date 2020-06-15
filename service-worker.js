@@ -1,6 +1,5 @@
 var CACHE_NAME = 'static-cache';
 var urlsToCache = [
-  'index.html',
   'abtpage.html',
   'creatine.html',
   'dietpage.html',
@@ -9,7 +8,8 @@ var urlsToCache = [
   'Nutrition_needed.html',
   'protein.html',
   'secpage.html',
-  'thirdpage.html'
+  'thirdpage.html',
+  './css/index.css'
 ];
 self.addEventListener('install', function(event) {
   event.waitUntil(
