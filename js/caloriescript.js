@@ -1,14 +1,21 @@
-var foodname;
-function getNameFood() {
-    $(".result").html("");
-    foodname = document.getElementById("fname").value;
-    $.getJSON("https://api.nal.usda.gov/ndb/search/?format=json&q="+foodname+"&max=1&ds=Standard%20Reference&api_key=ysedIp2gaq51iQDbJgLwXeupG2tE4zr5tQVzNxuS",function(data){
-    
-        var ndbno = data.list.item[0].ndbno;
-        $.getJSON("https://api.nal.usda.gov/ndb/V2/reports?ndbno="+ndbno+"&type=b&format=json&api_key=ysedIp2gaq51iQDbJgLwXeupG2tE4zr5tQVzNxuS",function(data2){
-        console.log(data2);
-        var calories = data2.foods[0].food.nutrients[1].value;
-        $(".result").append(calories+" kcal");
-        });
-    });
-}
+const fname = document.querySelector('#fname');
+const button = document.querySelector('#submitter');
+const result = document.querySelector('.result');
+
+
+button.addEventListener('click', () => {
+    fetch(`https://api.nal.usda.gov/fdc/v1/foods/search?api_key=DEMO_KEY&query=${fname.value}`)
+    .then(res => res.json())
+    .then(data => {
+        const fdcid = data.foods[0].fdcId;
+        return fetch(`https://api.nal.usda.gov/fdc/v1/food/${fdcid}?api_key=DEMO_KEY`);
+    })
+    .then(res => res.json())
+    .then(data => {
+        const calorie = data.labelNutrients.calories.value;
+        const sugar = data.labelNutrients.sugars.value;
+        const protein = data.labelNutrients.protein.value;
+
+        result.textContent = `Total Calorie = ${calorie} Sugar = ${sugar}g Protein = ${protein}g`;
+    })
+});
