@@ -1,21 +1,23 @@
     body{
     margin:0;
     line-height: 1.5;
-    background-image: linear-gradient( 45deg, #cfd9df, #e2ebf0);
+    background-image: linear-gradient( 45deg, #1d2731, #2b3a49);
+    color:white;
+    font-family: monospace;
 }
 
 h2{
     text-align: center;
     font-size: xx-large;
     font-weight: bolder;
-    font-family: sans-serif;
+
 }
 
 .container{
     width:80%;
     margin:auto;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-left: 2px solid #d9b310;
+    border-right: 2px solid #d9b310;
 }
 
 .inside{
@@ -32,7 +34,8 @@ h2{
 
 .inside button{
     border:none;
-    background-color: aliceblue;
+    background-color: rgb(12, 70, 109);
+    color:white;
     width:30%;
     padding:5% ;
     margin:5% 32%;

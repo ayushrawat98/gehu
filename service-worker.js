@@ -1,4 +1,4 @@
-var CACHE_NAME = 'static-cache';
+var CACHE_NAME = 'pleasestopcallingmege';
 
 self.addEventListener('fetch', function (event) {
   event.respondWith(
