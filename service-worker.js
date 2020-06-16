@@ -1,14 +1,14 @@
 var CACHE_NAME = 'static-cache';
 var urlsToCache = [
-  'index.html',
-  'creatine.html',
-  'dietpage.html',
-  'gainer.html',
-  'glutamine.html',
-  'Nutrition_needed.html',
-  'protein.html',
-  'secpage.html',
-  'thirdpage.html',
+  '/index.html',
+  '/creatine.html',
+  '/dietpage.html',
+  '/gainer.html',
+  '/glutamine.html',
+  '/Nutrition_needed.html',
+  '/protein.html',
+  '/secpage.html',
+  '/thirdpage.html',
 ];
 
 
@@ -31,4 +31,4 @@ self.addEventListener('fetch', function(event) {
     );
   });
   
- 
+  
